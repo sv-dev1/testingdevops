@@ -58,6 +58,7 @@ namespace WebApplication1.Controllers
         public ActionResult Login(string returnUrl)
         {
             ViewBag.ReturnUrl = returnUrl;
+            string abc = "";
             return View();
         }
 
